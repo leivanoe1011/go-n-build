@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/go-n-build/static/css/main.502d0a39.css",
+    "main.js": "/go-n-build/static/js/main.3691e62e.js",
+    "static/js/787.61a7276d.chunk.js": "/go-n-build/static/js/787.61a7276d.chunk.js",
+    "static/media/MeProfile.png": "/go-n-build/static/media/MeProfile.2c52cf8f93aad115f954.png",
+    "index.html": "/go-n-build/index.html",
+    "main.502d0a39.css.map": "/go-n-build/static/css/main.502d0a39.css.map",
+    "main.3691e62e.js.map": "/go-n-build/static/js/main.3691e62e.js.map",
+    "787.61a7276d.chunk.js.map": "/go-n-build/static/js/787.61a7276d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.502d0a39.css",
+    "static/js/main.3691e62e.js"
+  ]
+}
