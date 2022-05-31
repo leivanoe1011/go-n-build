@@ -17,7 +17,7 @@ function Router(){
     return(
         <div>
             <Switch>
-                <Route exact path="https://leivanoe1011.github.io/go-n-build/" component={IndexPage}  />
+                <Route exact path="/" component={IndexPage}  />
                 <UnPrivateRoute exact path="/login" component={LoginPage}  />
                 <UnPrivateRoute exact path="/register" component={RegisterPage}  />
                 <PrivateRoute exact path="/dashboard" roles={["admin","user"]} component={DashboardPage}  />
