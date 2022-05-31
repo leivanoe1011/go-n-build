@@ -19,10 +19,10 @@ function Router(){
             <Switch>
                 <Route exact path="/go-n-build/" component={IndexPage}  />
                 <Route exact path="/go-n-build/Home" component={IndexPage}  />
-                <UnPrivateRoute exact path="/login" component={LoginPage}  />
-                <UnPrivateRoute exact path="/register" component={RegisterPage}  />
-                <PrivateRoute exact path="/dashboard" roles={["admin","user"]} component={DashboardPage}  />
-                <PrivateRoute exact path="/createuser" roles={["admin"]} component={CreateUserPage}  />
+                <UnPrivateRoute exact path="/go-n-build/login" component={LoginPage}  />
+                <UnPrivateRoute exact path="/go-n-build/register" component={RegisterPage}  />
+                <PrivateRoute exact path="/go-n-build/dashboard" roles={["admin","user"]} component={DashboardPage}  />
+                <PrivateRoute exact path="/go-n-build/createuser" roles={["admin"]} component={CreateUserPage}  />
                 {/* The socket lives within the Auth Context */}
                 {/* <PrivateRoute path="/chatroom/:id" roles={["admin","user"]} component={ChatroomPage}/>  */}
             </Switch>
