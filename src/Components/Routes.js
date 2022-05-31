@@ -17,8 +17,8 @@ function Router(){
     return(
         <div>
             <Switch>
-                <Route exact path="/" component={IndexPage}  />
-                <Route exact path="/Home" component={IndexPage}  />
+                <Route exact path="/go-n-build/" component={IndexPage}  />
+                <Route exact path="/go-n-build/Home" component={IndexPage}  />
                 <UnPrivateRoute exact path="/login" component={LoginPage}  />
                 <UnPrivateRoute exact path="/register" component={RegisterPage}  />
                 <PrivateRoute exact path="/dashboard" roles={["admin","user"]} component={DashboardPage}  />
