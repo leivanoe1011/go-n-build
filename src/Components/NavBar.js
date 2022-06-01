@@ -148,11 +148,11 @@ function NavBar() {
                     <ul className="navbar-nav mr-auto">
                         
                         <li className="nav-item">
-                            <Link className="nav-link" to="/#features">WHAT WE DO</Link>
+                            <Link className="nav-link" to="/go-n-build/WhatWeDo">WHAT WE DO</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/#contact">PAST PROJECTS</Link>
+                            <Link className="nav-link" to="/go-n-build/PastProject">PAST PROJECTS</Link>
                         </li>
 
                         

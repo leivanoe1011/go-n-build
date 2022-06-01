@@ -1,6 +1,6 @@
 # Routes
 
-![Routes](/go-n-build/src/media/routeStructure.png)
+<!-- ![Routes](/go-n-build/src/media/routeStructure.png) -->
 
 # Getting Started with Create React App
 

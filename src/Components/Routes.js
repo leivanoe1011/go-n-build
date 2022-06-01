@@ -5,7 +5,12 @@ import { Switch, Route } from "react-router-dom";
 
 import PrivateRoute from "../hoc/PrivateRoute";
 import UnPrivateRoute from "../hoc/UnPrivateRoute";
+
 import IndexPage from "./Home/HomePage";
+import CurrentProjects from "./CurrentProjects/CurrentProjects";
+import PastProjects from "./PastProjects/PastProjects";
+import WhatWeDo from "./WhatWeDo/WhatWeDo";
+
 import LoginPage from "./LoginPage";
 import RegisterPage from "./RegisterPage";
 import DashboardPage from "./DashboardPage";
@@ -18,7 +23,10 @@ function Router(){
         <div>
             <Switch>
                 <Route exact path="/go-n-build/" component={IndexPage}  />
-                <Route exact path="/go-n-build/Home" component={IndexPage}  />
+                <Route exact path="/go-n-build/PastProject" component={PastProjects}/>
+                <Route exact path="/go-n-build/CurrentProject" component={CurrentProjects}/>
+                <Route exact path="/go-n-build/WhatWeDo" component={WhatWeDo}/>
+
                 <UnPrivateRoute exact path="/go-n-build/login" component={LoginPage}  />
                 <UnPrivateRoute exact path="/go-n-build/register" component={RegisterPage}  />
                 <PrivateRoute exact path="/go-n-build/dashboard" roles={["admin","user"]} component={DashboardPage}  />
