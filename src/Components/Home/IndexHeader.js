@@ -3,19 +3,20 @@ import React from "react";
 
 function Header () {
 
+    const poorKidImage = require("../../img/poorKidImage_Resized65Percent.jpg").default;
+
     return (
-        <div>
+        <div className="row wow animate__animated animate__fadeInLeft animate__slower">
             
-            <div className="jumbotron">
-                <h1 className="display-4">ABOUT US</h1>
-                <p className="lead">Go and Build it’s an organization committed to improve health and safety living conditions for families in extreme poverty, through the construction of sustainable homes; providing a secure and dignified place to live.</p>
-                {/* <hr className="my-4" />
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <p className="lead">
-                    <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                </p> */}
+            <div className="col-sm-12 col-md-4 col-lg-4">
+                <img src={poorKidImage}/>
             </div>
 
+            <div className="col-sm-12 col-md-8 col-lg-8">
+                <h1 className="display-4">ABOUT US</h1>
+                <p className="lead">Go and Build it’s an organization committed to improve health and safety living conditions for families in extreme poverty, through the construction of sustainable homes; providing a secure and dignified place to live.</p>
+            </div>
+            
         </div>
     );
 

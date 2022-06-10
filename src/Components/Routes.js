@@ -22,15 +22,20 @@ function Router(){
     return(
         <div>
             <Switch>
+
                 <Route exact path="/go-n-build/" component={IndexPage}  />
                 <Route exact path="/go-n-build/PastProject" component={PastProjects}/>
                 <Route exact path="/go-n-build/CurrentProject" component={CurrentProjects}/>
                 <Route exact path="/go-n-build/WhatWeDo" component={WhatWeDo}/>
 
+
+                {/* Future state */}
+
+                {/* 
                 <UnPrivateRoute exact path="/go-n-build/login" component={LoginPage}  />
                 <UnPrivateRoute exact path="/go-n-build/register" component={RegisterPage}  />
                 <PrivateRoute exact path="/go-n-build/dashboard" roles={["admin","user"]} component={DashboardPage}  />
-                <PrivateRoute exact path="/go-n-build/createuser" roles={["admin"]} component={CreateUserPage}  />
+                <PrivateRoute exact path="/go-n-build/createuser" roles={["admin"]} component={CreateUserPage}  /> */}
                 {/* The socket lives within the Auth Context */}
                 {/* <PrivateRoute path="/chatroom/:id" roles={["admin","user"]} component={ChatroomPage}/>  */}
             </Switch>

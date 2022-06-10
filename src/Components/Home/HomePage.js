@@ -16,20 +16,7 @@ function Index () {
         <section>
             {/* Header */}
             <div className = "container">
-                <div className="row">
-                    {/* <div className={isAuthenticated ? "col-sm-12" : "col-sm-7"}>
-                        <Header/>
-                    </div>
-
-                    {isAuthenticated ? <div></div> : <div className="col-sm-5">
-                        <Login/>
-                    </div> }
-                     */}
-
-
                     <Header/>
-
-                </div>
             </div>
 
             {/* Body */}
