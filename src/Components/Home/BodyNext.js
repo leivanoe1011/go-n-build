@@ -71,7 +71,7 @@ function BodyNext () {
 
             <div className="row d-flex justify-content-center wow animate__animated animate__fadeInUp animate__slower">
 
-                <div className="col-sm-12 col-md-10 col-lg-10 align-self-center">
+                <div className="col-sm-12 col-md-10 col-lg-10 align-self-center  d-flex justify-content-center">
                     <img src={poorKidImage}/>
                 </div>
                 
