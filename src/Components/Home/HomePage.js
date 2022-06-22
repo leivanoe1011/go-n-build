@@ -1,10 +1,11 @@
 
 import React, { useContext } from "react";
+import "./home.css";
 
 
 import Header from "./IndexHeader";
-import Login from "./IndexLogin";
 import Body from "./IndexBody";
+import BodyNext from "./BodyNext";
 
 import { AuthContext } from "../../Context/AuthContext";
 
@@ -15,20 +16,25 @@ function Index () {
     return (
         <section>
             {/* Header */}
-            <div className = "container">
+            <div className = "container-fluid">
                     <Header/>
             </div>
 
             {/* Body */}
-            <div className="container">
+            <div className="container-fluid">
                 
                 <Body/>
 
             </div>
 
+            <div className="container-fluid">
+                
+                <BodyNext/>
+
+            </div>
 
             {/* Footer */}
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
 
                 </div>

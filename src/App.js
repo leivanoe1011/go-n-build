@@ -47,8 +47,8 @@ function App() {
       </Router>
      
       {/* Footer */}
-      <footer className="footer">
-        <Footer/>
+      <footer className="container-fluid">
+          <Footer/>
       </footer>
       {/* End of Container */}
       
