@@ -1,7 +1,7 @@
 
 // Dependencies
 import React from 'react';
-import { Router } from 'react-router-dom';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 
 // Components

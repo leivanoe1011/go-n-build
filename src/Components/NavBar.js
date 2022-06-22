@@ -137,7 +137,7 @@ function NavBar() {
         <div>    
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
 
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/go-n-build/home">
                     <img src={logo} />
                 </Link>
 
