@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/go-n-build/static/css/main.4497dd94.chunk.css",
-    "main.js": "/go-n-build/static/js/main.3b30c84c.chunk.js",
-    "main.js.map": "/go-n-build/static/js/main.3b30c84c.chunk.js.map",
-    "runtime-main.js": "/go-n-build/static/js/runtime-main.82534f38.js",
-    "runtime-main.js.map": "/go-n-build/static/js/runtime-main.82534f38.js.map",
-    "static/js/2.2d4336e7.chunk.js": "/go-n-build/static/js/2.2d4336e7.chunk.js",
-    "static/js/2.2d4336e7.chunk.js.map": "/go-n-build/static/js/2.2d4336e7.chunk.js.map",
-    "index.html": "/go-n-build/index.html",
-    "static/css/main.4497dd94.chunk.css.map": "/go-n-build/static/css/main.4497dd94.chunk.css.map",
-    "static/js/2.2d4336e7.chunk.js.LICENSE.txt": "/go-n-build/static/js/2.2d4336e7.chunk.js.LICENSE.txt",
-    "static/media/My project.jpg": "/go-n-build/static/media/My project.35a63f7a.jpg",
-    "static/media/poorKidImage_25Percent.jpg": "/go-n-build/static/media/poorKidImage_25Percent.adb04727.jpg",
-    "static/media/poverty-housing-guatemala.jpg": "/go-n-build/static/media/poverty-housing-guatemala.34bfc399.jpg"
+    "main.css": "/static/css/main.4497dd94.chunk.css",
+    "main.js": "/static/js/main.3b30c84c.chunk.js",
+    "main.js.map": "/static/js/main.3b30c84c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ecc59008.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ecc59008.js.map",
+    "static/js/2.ecd0205b.chunk.js": "/static/js/2.ecd0205b.chunk.js",
+    "static/js/2.ecd0205b.chunk.js.map": "/static/js/2.ecd0205b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4497dd94.chunk.css.map": "/static/css/main.4497dd94.chunk.css.map",
+    "static/js/2.ecd0205b.chunk.js.LICENSE.txt": "/static/js/2.ecd0205b.chunk.js.LICENSE.txt",
+    "static/media/My project.jpg": "/static/media/My project.35a63f7a.jpg",
+    "static/media/poorKidImage_25Percent.jpg": "/static/media/poorKidImage_25Percent.adb04727.jpg",
+    "static/media/poverty-housing-guatemala.jpg": "/static/media/poverty-housing-guatemala.34bfc399.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82534f38.js",
-    "static/js/2.2d4336e7.chunk.js",
+    "static/js/runtime-main.ecc59008.js",
+    "static/js/2.ecd0205b.chunk.js",
     "static/css/main.4497dd94.chunk.css",
     "static/js/main.3b30c84c.chunk.js"
   ]
