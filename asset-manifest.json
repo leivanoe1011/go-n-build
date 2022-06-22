@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/go-n-build/static/css/main.b9a778db.chunk.css",
-    "main.js": "/go-n-build/static/js/main.aae2df74.chunk.js",
-    "main.js.map": "/go-n-build/static/js/main.aae2df74.chunk.js.map",
+    "main.css": "/go-n-build/static/css/main.4497dd94.chunk.css",
+    "main.js": "/go-n-build/static/js/main.3b30c84c.chunk.js",
+    "main.js.map": "/go-n-build/static/js/main.3b30c84c.chunk.js.map",
     "runtime-main.js": "/go-n-build/static/js/runtime-main.82534f38.js",
     "runtime-main.js.map": "/go-n-build/static/js/runtime-main.82534f38.js.map",
-    "static/js/2.e293ce4a.chunk.js": "/go-n-build/static/js/2.e293ce4a.chunk.js",
-    "static/js/2.e293ce4a.chunk.js.map": "/go-n-build/static/js/2.e293ce4a.chunk.js.map",
+    "static/js/2.2d4336e7.chunk.js": "/go-n-build/static/js/2.2d4336e7.chunk.js",
+    "static/js/2.2d4336e7.chunk.js.map": "/go-n-build/static/js/2.2d4336e7.chunk.js.map",
     "index.html": "/go-n-build/index.html",
-    "static/css/main.b9a778db.chunk.css.map": "/go-n-build/static/css/main.b9a778db.chunk.css.map",
-    "static/js/2.e293ce4a.chunk.js.LICENSE.txt": "/go-n-build/static/js/2.e293ce4a.chunk.js.LICENSE.txt"
+    "static/css/main.4497dd94.chunk.css.map": "/go-n-build/static/css/main.4497dd94.chunk.css.map",
+    "static/js/2.2d4336e7.chunk.js.LICENSE.txt": "/go-n-build/static/js/2.2d4336e7.chunk.js.LICENSE.txt",
+    "static/media/My project.jpg": "/go-n-build/static/media/My project.35a63f7a.jpg",
+    "static/media/poorKidImage_25Percent.jpg": "/go-n-build/static/media/poorKidImage_25Percent.adb04727.jpg",
+    "static/media/poverty-housing-guatemala.jpg": "/go-n-build/static/media/poverty-housing-guatemala.34bfc399.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.82534f38.js",
-    "static/js/2.e293ce4a.chunk.js",
-    "static/css/main.b9a778db.chunk.css",
-    "static/js/main.aae2df74.chunk.js"
+    "static/js/2.2d4336e7.chunk.js",
+    "static/css/main.4497dd94.chunk.css",
+    "static/js/main.3b30c84c.chunk.js"
   ]
 }
