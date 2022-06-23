@@ -23,7 +23,8 @@ function Router(){
         <div>
             <Switch>
 
-                <Route exact path="/go-n-build/home" component={IndexPage}  />
+                <Route exact path="/go-n-build/" render={()=>{return <IndexPage title="Home"/>}} />
+                <Route exact path="/go-n-build/home" render={()=>{return <IndexPage title="Home"/>}} />
                 <Route exact path="/go-n-build/PastProject" component={PastProjects}/>
                 <Route exact path="/go-n-build/CurrentProject" component={CurrentProjects}/>
                 <Route exact path="/go-n-build/WhatWeDo" component={WhatWeDo}/>
