@@ -3,6 +3,12 @@ import React from "react";
 
 function ContactForm (){
 
+
+    const sendMessage = () => {
+        alert("Thank you for your message");
+    }
+
+
     return(
         <>
                     
@@ -58,24 +64,29 @@ function ContactForm (){
 
                         </form>
 
-                        <div className="text-center text-md-left">
-                            <a className="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        <div className="row">
+                            <div className="col-sm-12 col-md-3 col-lg-3 mt-2 text-center text-md-left">
+                                <button type="button" className="btn btn-primary"  onclick={sendMessage}>Send</button>
+                            </div>
                         </div>
+                      
+
                         <div className="status"></div>
+
                     </div>
 
                     <div className="col-md-3 text-center">
                         <ul className="list-unstyled mb-0">
                             <li><i className="fas fa-map-marker-alt fa-2x"></i>
-                                <p>San Francisco, CA 94126, USA</p>
+                                <p>10 W Bay State Street #1274, Alhambra CA 91802, USA</p>
                             </li>
 
                             <li><i className="fas fa-phone mt-4 fa-2x"></i>
-                                <p>+ 01 234 567 89</p>
+                                <p>+ 1 909 766 0445</p>
                             </li>
 
                             <li><i className="fas fa-envelope mt-4 fa-2x"></i>
-                                <p>contact@mdbootstrap.com</p>
+                                <p>partner@goandbuild.org</p>
                             </li>
                         </ul>
                     </div>
