@@ -6,6 +6,7 @@ import "./home.css";
 import Header from "./IndexHeader";
 import Body from "./IndexBody";
 import BodyNext from "./BodyNext";
+import End from "./IndexEnd";
 
 import { AuthContext } from "../../Context/AuthContext";
 
@@ -35,9 +36,7 @@ function Index () {
 
             {/* Footer */}
             <div className="container-fluid">
-                <div className="row">
-
-                </div>
+                <End/>
             </div>
 
         </section>      

@@ -1,6 +1,6 @@
 
 
-import { Switch, Route } from "react-router-dom";
+import { Switch } from "react-router-dom";
 
 
 import PrivateRoute from "../hoc/PrivateRoute";
@@ -15,7 +15,7 @@ import LoginPage from "./LoginPage";
 import RegisterPage from "./RegisterPage";
 import DashboardPage from "./DashboardPage";
 import CreateUserPage from "./CreateUserPage";
-// import ChatroomPage from "./ChatPage";
+import ChatroomPage from "./ChatPage";
 
 
 function Router(){
@@ -23,21 +23,17 @@ function Router(){
         <div>
             <Switch>
 
-                <Route exact path="/" component={IndexPage} />
-                <Route exact path="/go-n-build/PastProject" component={PastProjects}/>
-                <Route exact path="/go-n-build/CurrentProject" component={CurrentProjects}/>
-                <Route exact path="/go-n-build/WhatWeDo" component={WhatWeDo}/>
-
-
-                {/* Future state */}
-
-                {/* 
+                <UnPrivateRoute exact path="/" component={IndexPage} />
+                <UnPrivateRoute exact path="/PastProject" component={PastProjects}/>
+                <UnPrivateRoute exact path="/CurrentProject" component={CurrentProjects}/>
+                <UnPrivateRoute exact path="/WhatWeDo" component={WhatWeDo}/>
+                <UnPrivateRoute exact path="/go-n-build/login" component={LoginPage}  />
                 <UnPrivateRoute exact path="/go-n-build/login" component={LoginPage}  />
                 <UnPrivateRoute exact path="/go-n-build/register" component={RegisterPage}  />
                 <PrivateRoute exact path="/go-n-build/dashboard" roles={["admin","user"]} component={DashboardPage}  />
-                <PrivateRoute exact path="/go-n-build/createuser" roles={["admin"]} component={CreateUserPage}  /> */}
-                {/* The socket lives within the Auth Context */}
-                {/* <PrivateRoute path="/chatroom/:id" roles={["admin","user"]} component={ChatroomPage}/>  */}
+                <PrivateRoute exact path="/go-n-build/createuser" roles={["admin"]} component={CreateUserPage}  /> 
+                <PrivateRoute path="/chatroom/:id" roles={["admin","user"]} component={ChatroomPage}/>
+             
             </Switch>
         </div>
     )

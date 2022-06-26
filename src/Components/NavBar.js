@@ -152,7 +152,7 @@ function NavBar() {
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/go-n-build/PastProject">PAST PROJECTS</Link>
+                            <Link className="nav-link" to="/PastProject">PAST PROJECTS</Link>
                         </li>
 
                         

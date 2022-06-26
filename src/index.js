@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-// import AuthProvider from './Context/AuthContext';
+import AuthProvider from './Context/AuthContext';
 import { HashRouter as Router } from "react-router-dom";
 
 
@@ -11,7 +11,9 @@ import "./styles/chatroom.css";
 
 ReactDOM.render(
   
+    <AuthProvider>
         <Router>
           <App />
-        </Router>, document.getElementById('root')
+        </Router>
+    </AuthProvider>, document.getElementById('root')
 );

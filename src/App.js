@@ -25,25 +25,21 @@ function App() {
     <>
      
       {/* The Link components in the NavBar must live within the Router component */}
-      {/* <Router history={history}> */}
     
-               {/* Start of NavBar */}
-               <div className="navContainer">
+      {/* Start of NavBar */}
+      <div className="navContainer">
 
-                  <div className="container">
-                    <NavBar className="row" />
-                  </div>
+          <div className="container">
+            <NavBar className="row" />
+        </div>
 
-                </div>     
-                {/* End of NavBar */}
-            
-              <MainBody>
-                  <Routes history={history} />
-              </MainBody>
+      </div>     
+      {/* End of NavBar */}
+    
+      <MainBody>
+          <Routes history={history} />
+      </MainBody>
 
-
-      {/* </Router> */}
-     
       {/* Footer */}
       <footer className="container-fluid">
           <Footer/>

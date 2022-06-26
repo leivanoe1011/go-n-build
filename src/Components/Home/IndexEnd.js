@@ -1,16 +1,18 @@
 
 import React from "react";
+import ReactPlayer from "react-player"
 
-function IndexBody () {
+function End () {
 
-    const poorKidImage = require("../../img/My project.jpg").default;
+    const videoGuatemala = "https://vimeo.com/20084567"
+    const playerHeight = "800px";
+    const playerWidth = "1200px";
 
-    return (
-
+    return(
         <>
             <div className="row d-flex justify-content-center">
 
-                <div className="col-sm-12 col-md-12 col-lg-12 text-center p-4 m-5 after-about">
+                <div className="col-sm-12 col-md-12 col-lg-12 text-center p-4 mt-5 after-about">
 
                     <div className="row d-flex justify-content-center">
                         <div className="col-sm-12 col-md-10 col-lg-10">
@@ -30,28 +32,28 @@ function IndexBody () {
                                 <p className="after-about-body m-4">It leaves them powerless.</p>
 
                             </h5>
-                          
+                        
                         </div>
                     </div>
-                
+
                 </div>
 
             </div>
 
             <div className="row d-flex justify-content-center wow animate__animated animate__fadeInUp animate__slower">
-
-                <div className="col-sm-12 col-md-10 col-lg-10 align-self-center d-flex justify-content-center">
-                    <img src={poorKidImage}/>
-                </div>
-                
+                <ReactPlayer
+                    url={videoGuatemala}
+                    playing={true}
+                    loop={true}
+                    muted={true}
+                    width={playerWidth}
+                    height={playerHeight}
+                />
             </div>
-        </>
         
-    );
+        </>
+    )
 
-   
 }
 
-
-export default IndexBody;
-
+export default End;

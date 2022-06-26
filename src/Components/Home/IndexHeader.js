@@ -9,7 +9,7 @@ function Header () {
         <>
                 <div className="row justify-content-lg-center wow animate__animated animate__fadeInLeft animate__slower">
                 
-                    <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
+                    <div className="col-sm-12 col-md-4 col-lg-4 align-self-center">
                         <img src={poorKidImage}/>
                     </div>
 
