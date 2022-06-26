@@ -12,7 +12,9 @@ import { AuthContext } from "../Context/AuthContext"
 
 function NavBar() {
 
-    const logo = require("../media/GoNBuildLogoThumbnail.png").default;
+    // const logo = require("../media/GBL logo.png").default;
+    const logo = require("../media/GB_100_logo.png").default;
+
 
     // const { isAuthenticated, setIsAuthenticated, role } = useContext(AuthContext);
     const { setIsAuthenticated, role } = useContext(AuthContext);
@@ -132,13 +134,17 @@ function NavBar() {
         )
     }
 
+    const imageStyle = {
+        marginBottom: "-10px",
+        marginTop: "-5px",
+    }
 
     return(
         <div>    
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
 
-                <Link className="nav-link" to="/">
-                    <img src={logo} />
+                <Link style={imageStyle} className="nav-link" to="/">
+                    <img style={imageStyle} src={logo} />
                 </Link>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

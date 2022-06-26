@@ -31,7 +31,7 @@ function Footer(){
 
             <div className="row align-self-center d-flex justify-content-center bg-dark p-5">
                 <div className="col-sm-12 col-md-10 col-lg-10 align-self-center d-flex justify-content-center">
-                    <div class="center-align text-white ">&copy; {currentYear} GO-AND-BUILD</div>
+                    <div className="center-align text-white ">&copy; {currentYear} GO-AND-BUILD</div>
 
                 </div>
                
