@@ -1,9 +1,9 @@
 
 
 import React, { useRef, useEffect } from "react";
-import makeToast from "../Toaster";
+import makeToast from "../../Toaster";
 import { Link } from "react-router-dom";
-import ServerServices from "../Services/ServerService";
+import ServerServices from "../../Services/ServerService";
 
 
 const CreateChat = (props) => {

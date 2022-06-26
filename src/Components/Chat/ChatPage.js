@@ -1,11 +1,11 @@
 
 
 import React, { useState, useContext, useEffect, useRef } from 'react';
-import ServerServices from "../Services/ServerService";
+import ServerServices from "../../Services/ServerService";
 import { withRouter } from "react-router-dom";
 
 
-import { AuthContext } from "../Context/AuthContext";
+import { AuthContext } from "../../Context/AuthContext";
 
 function Chat (props) {
 

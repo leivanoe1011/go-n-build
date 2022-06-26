@@ -5,7 +5,7 @@ function Footer(){
     
     const currentYear = new Date().getFullYear();
 
-    const mystyle = {
+    const connectStyle = {
         listStyleType: "none",
         padding: "10px",
         fontFamily: "Arial"
@@ -21,7 +21,7 @@ function Footer(){
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-4">
                     <h5 className="text-white ">Connect</h5>
-                    <ul className="connect-links" style={mystyle}>
+                    <ul className="connect-links" style={connectStyle}>
                         <li><a href="#" className="text-white">Facebook</a></li>
                         <li><a href="#" className="text-white">Instragram</a></li>
                         <li><a href="#" className="text-white">Pinterest</a></li>

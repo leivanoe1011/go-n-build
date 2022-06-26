@@ -1,8 +1,8 @@
 
 import React, { createRef } from "react";
 // import { withRouter } from "react-router-dom";
-import AuthService from "../Services/AuthService";
-import makeToast from "../Toaster"
+import AuthService from "../../Services/AuthService";
+import makeToast from "../../Toaster"
 
 function Register (props) {
 

@@ -1,7 +1,7 @@
 import React from "react";
-import makeToast from "../Toaster";
+import makeToast from "../../Toaster";
 import { withRouter } from "react-router-dom";
-import AuthService from "../Services/AuthService";
+import AuthService from "../../Services/AuthService";
 
 const LoginPage = (props) => {
 

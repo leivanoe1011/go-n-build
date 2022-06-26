@@ -1,0 +1,12 @@
+.container-fluid {
+    padding: 5px;
+  }
+  
+  .after-about{
+      background-color: black;
+  }
+
+  .after-about-body{
+      color: white;
+      size: 55px;
+  }

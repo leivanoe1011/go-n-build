@@ -6,14 +6,14 @@ import {
     Link, Redirect
 } from "react-router-dom";
 import Button from "react-bootstrap/Button"
-import AuthService from "../Services/AuthService";
-import { AuthContext } from "../Context/AuthContext"
+
+import AuthService from "../../Services/AuthService";
+import { AuthContext } from "../../Context/AuthContext"
 
 
 function NavBar() {
 
-    // const logo = require("../media/GBL logo.png").default;
-    const logo = require("../media/GB_100_logo.png").default;
+    const logo = require("../../media/GB_100_logo.png").default;
 
 
     // const { isAuthenticated, setIsAuthenticated, role } = useContext(AuthContext);
@@ -163,7 +163,7 @@ function NavBar() {
 
                         
                         <li className="nav-item">
-                            <Link className="nav-link" to="/#contact">CURRENT PROJECTS</Link>
+                            <Link className="nav-link" to="/CurrentProject">CURRENT PROJECTS</Link>
                         </li>
 
 

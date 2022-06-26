@@ -2,7 +2,7 @@
 import React from "react";
 
 // import Body from "./DashboardBody";
-import Chat from "./CreateChatPage";
+import Chat from "../Chat/CreateChatPage";
 
 
 function Dashboard() {

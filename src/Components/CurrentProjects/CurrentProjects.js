@@ -1,23 +1,47 @@
 
-
-
 import React, { useContext } from "react";
-import { AuthContext } from '../../Context/AuthContext';
+import "./home.css";
 
-function Index() {
+
+import Header from "./IndexHeader";
+import Body from "./IndexBody";
+import BodyNext from "./BodyNext";
+import VideoGuate from "./VideoGuate";
+
+import { AuthContext } from "../../Context/AuthContext";
+
+function Index () {
+
     const { isAuthenticated } = useContext(AuthContext);
 
     return (
         <section>
-            <div className="container">
-                <div className="row">
-                    <p>Current Projects</p>
-                </div>
-
+            {/* Header */}
+            <div className = "container-fluid">
+                    <Header/>
             </div>
-        </section>
-    );
+
+            <div className="container-fluid">
+                <VideoGuate/>
+            </div>
+
+
+            {/* Body */}
+            <div className="container-fluid">
+                <Body/>
+            </div>
+
+            <div className="container-fluid">
+                <BodyNext/>
+            </div>
+
+        </section>      
+       
+    )
 }
 
 export default Index;
+
+
+
 

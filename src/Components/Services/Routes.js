@@ -3,19 +3,20 @@
 import { Switch } from "react-router-dom";
 
 
-import PrivateRoute from "../hoc/PrivateRoute";
-import UnPrivateRoute from "../hoc/UnPrivateRoute";
+import PrivateRoute from "../../hoc/PrivateRoute";
+import UnPrivateRoute from "../../hoc/UnPrivateRoute";
 
-import IndexPage from "./Home/HomePage";
-import CurrentProjects from "./CurrentProjects/CurrentProjects";
-import PastProjects from "./PastProjects/PastProjects";
-import WhatWeDo from "./WhatWeDo/WhatWeDo";
 
-import LoginPage from "./LoginPage";
-import RegisterPage from "./RegisterPage";
-import DashboardPage from "./DashboardPage";
-import CreateUserPage from "./CreateUserPage";
-import ChatroomPage from "./ChatPage";
+import IndexPage from "../Home/HomePage";
+import CurrentProjects from "../CurrentProjects/CurrentProjects";
+import PastProjects from "../PastProjects/PastProjects";
+import WhatWeDo from "../WhatWeDo/WhatWeDo";
+
+import LoginPage from "../Authentication/LoginPage";
+import RegisterPage from "../Authentication/RegisterPage";
+import DashboardPage from "../Dashboard/DashboardPage";
+import CreateUserPage from "../CreateUser/CreateUserPage";
+import ChatroomPage from "../Chat/ChatPage";
 
 
 function Router(){

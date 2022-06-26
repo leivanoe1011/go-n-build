@@ -1,14 +1,13 @@
 
 // Dependencies
 import React from 'react';
-import {BrowserRouter as Router} from 'react-router-dom';
 
 
 // Components
-import NavBar from "./Components/NavBar";
-import MainBody from "./Components/MainBody";
-import Footer from "./Components/Footer";
-import Routes from "./Components/Routes";
+import NavBar from "./Components/Services/NavBar";
+import MainBody from "./Components/Services/MainBody";
+import Footer from "./Components/Services/Footer";
+import Routes from "./Components/Services/Routes";
 
 
 // Services
