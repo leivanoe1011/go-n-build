@@ -5,6 +5,8 @@ function ContactForm (){
 
 
     const sendMessage = () => {
+
+        console.log('in send email');
         alert("Thank you for your message");
     }
 
@@ -28,14 +30,14 @@ function ContactForm (){
                                 <div className="col-md-6">
                                     <div className="md-form mb-0">
                                         <input type="text" id="name" name="name" className="form-control"/>
-                                        <label for="name" className="">Your name</label>
+                                        <label htmlFor="name" className="">Your name</label>
                                     </div>
                                 </div>
 
                                 <div className="col-md-6">
                                     <div className="md-form mb-0">
                                         <input type="text" id="email" name="email" className="form-control"/>
-                                        <label for="email" className="">Your email</label>
+                                        <label htmlFor="email" className="">Your email</label>
                                     </div>
                                 </div>
 
@@ -45,7 +47,7 @@ function ContactForm (){
                                 <div className="col-md-12">
                                     <div className="md-form mb-0">
                                         <input type="text" id="subject" name="subject" className="form-control"/>
-                                        <label for="subject" className="">Subject</label>
+                                        <label htmlFor="subject" className="">Subject</label>
                                     </div>
                                 </div>
                             </div>
@@ -56,7 +58,7 @@ function ContactForm (){
 
                                     <div className="md-form">
                                         <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
-                                        <label for="message">Your message</label>
+                                        <label htmlFor="message">Your message</label>
                                     </div>
 
                                 </div>
@@ -66,7 +68,7 @@ function ContactForm (){
 
                         <div className="row">
                             <div className="col-sm-12 col-md-3 col-lg-3 mt-2 text-center text-md-left">
-                                <button type="button" className="btn btn-primary"  onclick={sendMessage}>Send</button>
+                                <button type="button" className="btn btn-primary" onClick={sendMessage}>Send</button>
                             </div>
                         </div>
                       

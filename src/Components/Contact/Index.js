@@ -10,7 +10,7 @@ function Contact () {
     return(
         <>
             <section>
-                <div className="container contact-screen">
+                <div className="container">
                     <ContactForm/>
                 </div>
             </section>
