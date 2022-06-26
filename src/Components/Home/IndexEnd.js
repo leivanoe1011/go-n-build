@@ -5,8 +5,8 @@ import ReactPlayer from "react-player"
 function End () {
 
     const videoGuatemala = "https://vimeo.com/20084567"
-    const playerHeight = "800px";
-    const playerWidth = "1200px";
+    const playerHeight = "50rem"; // 800 px
+    const playerWidth = "75rem"; // 1200 px
 
     return(
         <>

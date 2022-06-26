@@ -9,12 +9,12 @@ function Header () {
         <>
                 <div className="row justify-content-lg-center wow animate__animated animate__fadeInLeft animate__slower">
                 
-                    <div className="col-sm-12 col-md-4 col-lg-4 align-self-center">
+                    <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                         <img src={poorKidImage}/>
                     </div>
 
-                    <div className="col-sm-12 col-md-4 col-lg-4 align-self-center">
-                        <h1 className="display-4">ABOUT US</h1>
+                    <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
+                        <h1 className="display-4">ABOUT USs</h1>
                         <p className="lead">Go and Build it’s an organization committed to improve health and safety living conditions for families in extreme poverty, through the construction of sustainable homes; providing a secure and dignified place to live.</p>
                     </div>
                     
