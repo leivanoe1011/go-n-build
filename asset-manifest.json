@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.4497dd94.chunk.css",
-    "main.js": "/static/js/main.276d8082.chunk.js",
-    "main.js.map": "/static/js/main.276d8082.chunk.js.map",
+    "main.js": "/static/js/main.a36025b4.chunk.js",
+    "main.js.map": "/static/js/main.a36025b4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ecc59008.js",
     "runtime-main.js.map": "/static/js/runtime-main.ecc59008.js.map",
-    "static/js/2.186193c5.chunk.js": "/static/js/2.186193c5.chunk.js",
-    "static/js/2.186193c5.chunk.js.map": "/static/js/2.186193c5.chunk.js.map",
+    "static/js/2.cbf35609.chunk.js": "/static/js/2.cbf35609.chunk.js",
+    "static/js/2.cbf35609.chunk.js.map": "/static/js/2.cbf35609.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.4497dd94.chunk.css.map": "/static/css/main.4497dd94.chunk.css.map",
-    "static/js/2.186193c5.chunk.js.LICENSE.txt": "/static/js/2.186193c5.chunk.js.LICENSE.txt",
+    "static/js/2.cbf35609.chunk.js.LICENSE.txt": "/static/js/2.cbf35609.chunk.js.LICENSE.txt",
     "static/media/My project.jpg": "/static/media/My project.35a63f7a.jpg",
     "static/media/poorKidImage_25Percent.jpg": "/static/media/poorKidImage_25Percent.adb04727.jpg",
     "static/media/poverty-housing-guatemala.jpg": "/static/media/poverty-housing-guatemala.34bfc399.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ecc59008.js",
-    "static/js/2.186193c5.chunk.js",
+    "static/js/2.cbf35609.chunk.js",
     "static/css/main.4497dd94.chunk.css",
-    "static/js/main.276d8082.chunk.js"
+    "static/js/main.a36025b4.chunk.js"
   ]
 }
