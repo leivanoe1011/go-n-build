@@ -6,7 +6,7 @@ import "./home.css";
 import Header from "./IndexHeader";
 import Body from "./IndexBody";
 import BodyNext from "./BodyNext";
-import End from "./IndexEnd";
+import VideoGuate from "./VideoGuate";
 
 import { AuthContext } from "../../Context/AuthContext";
 
@@ -21,6 +21,11 @@ function Index () {
                     <Header/>
             </div>
 
+            <div className="container-fluid">
+                <VideoGuate/>
+            </div>
+
+
             {/* Body */}
             <div className="container-fluid">
                 
@@ -34,10 +39,7 @@ function Index () {
 
             </div>
 
-            {/* Footer */}
-            <div className="container-fluid">
-                <End/>
-            </div>
+
 
         </section>      
        

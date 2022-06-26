@@ -2,7 +2,7 @@
 import React from "react";
 import ReactPlayer from "react-player"
 
-function End () {
+function VideoGuate () {
 
     const videoGuatemala = "https://vimeo.com/20084567"
     const playerHeight = "50rem"; // 800 px
@@ -56,4 +56,4 @@ function End () {
 
 }
 
-export default End;
+export default VideoGuate;
