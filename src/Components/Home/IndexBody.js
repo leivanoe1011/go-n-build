@@ -10,7 +10,7 @@ function IndexBody () {
         <>
             <div className="row d-flex justify-content-center">
 
-                <div className="col-sm-12 col-md-12 col-lg-12 text-center p-4 m-5 after-about">
+                <div className="col-sm-12 col-md-12 col-lg-12 text-center p-4 mb-5 after-about">
 
                     <div className="row d-flex justify-content-center">
                         <div className="col-sm-12 col-md-10 col-lg-10">

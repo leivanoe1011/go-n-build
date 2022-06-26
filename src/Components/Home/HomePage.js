@@ -28,15 +28,11 @@ function Index () {
 
             {/* Body */}
             <div className="container-fluid">
-                
                 <Body/>
-
             </div>
 
             <div className="container-fluid">
-                
                 <BodyNext/>
-
             </div>
 
 
