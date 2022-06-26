@@ -137,7 +137,7 @@ function NavBar() {
         <div>    
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
 
-                <Link className="nav-link" to="/go-n-build/home">
+                <Link className="nav-link" to="/">
                     <img src={logo} />
                 </Link>
 
@@ -148,7 +148,7 @@ function NavBar() {
                     <ul className="navbar-nav mr-auto">
                         
                         <li className="nav-item">
-                            <Link className="nav-link" to="/go-n-build/WhatWeDo">WHAT WE DO</Link>
+                            <Link className="nav-link" to="/WhatWeDo">WHAT WE DO</Link>
                         </li>
 
                         <li className="nav-item">

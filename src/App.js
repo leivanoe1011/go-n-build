@@ -25,9 +25,8 @@ function App() {
     <>
      
       {/* The Link components in the NavBar must live within the Router component */}
-      <Router history={history}>
+      {/* <Router history={history}> */}
     
-        {/* <Router> */}
                {/* Start of NavBar */}
                <div className="navContainer">
 
@@ -42,9 +41,8 @@ function App() {
                   <Routes history={history} />
               </MainBody>
 
-          {/* </Router> */}
 
-      </Router>
+      {/* </Router> */}
      
       {/* Footer */}
       <footer className="container-fluid">
