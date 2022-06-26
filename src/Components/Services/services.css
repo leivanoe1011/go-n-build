@@ -1,0 +1,11 @@
+
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  .thumbnail:hover {
+    opacity: 0.5;
+    background-color: rgba(245, 10, 10, 0.432);
+    }

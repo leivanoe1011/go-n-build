@@ -10,6 +10,8 @@ import Button from "react-bootstrap/Button"
 import AuthService from "../../Services/AuthService";
 import { AuthContext } from "../../Context/AuthContext"
 
+import "./services.css";
+
 
 function NavBar() {
 
@@ -151,24 +153,24 @@ function NavBar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarText">
-                    <ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav mr-auto ">
                         
                         <li className="nav-item">
-                            <Link className="nav-link" to="/WhatWeDo">WHAT WE DO</Link>
+                            <Link className="nav-link thumbnail" to="/WhatWeDo">WHAT WE DO</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/PastProject">PAST PROJECTS</Link>
+                            <Link className="nav-link thumbnail" to="/PastProject">PAST PROJECTS</Link>
                         </li>
 
                         
                         <li className="nav-item">
-                            <Link className="nav-link" to="/CurrentProject">CURRENT PROJECTS</Link>
+                            <Link className="nav-link thumbnail" to="/CurrentProject">CURRENT PROJECTS</Link>
                         </li>
 
 
                         <li className="nav-item">
-                            <Link className="nav-link" to="/#contact">Contact us</Link>
+                            <Link className="nav-link thumbnail" to="/Contact">CONCTACT US</Link>
                         </li>
 
                         {/* {isAuthenticated ? authenticatedNavBar() : unauthenticatedNavBar()} */}
