@@ -1,13 +1,24 @@
 
-import React from "react";
+import { useState,React } from "react";
 
 function ContactForm (){
 
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
 
-    const sendMessage = () => {
+    const sendMessage = event => {
+
+        event.preventDefault()
 
         console.log('in send email');
         alert("Thank you for your message");
+
+        setName('');
+        setEmail('');
+        setSubject('');
+        setMessage('');
     }
 
 
@@ -29,14 +40,22 @@ function ContactForm (){
 
                                 <div className="col-md-6">
                                     <div className="md-form mb-0">
-                                        <input type="text" id="name" name="name" className="form-control"/>
+                                        <input type="text" id="name" name="name" 
+                                            className="form-control"
+                                            onChange={event => setName(event.target.value)}
+                                            value={name}
+                                         />
                                         <label htmlFor="name" className="">Your name</label>
                                     </div>
                                 </div>
 
                                 <div className="col-md-6">
                                     <div className="md-form mb-0">
-                                        <input type="text" id="email" name="email" className="form-control"/>
+                                        <input type="text" id="email" name="email" 
+                                            className="form-control"
+                                            onChange={event => setEmail(event.target.value)}
+                                            value={email}
+                                         />
                                         <label htmlFor="email" className="">Your email</label>
                                     </div>
                                 </div>
@@ -46,7 +65,11 @@ function ContactForm (){
                             <div className="row">
                                 <div className="col-md-12">
                                     <div className="md-form mb-0">
-                                        <input type="text" id="subject" name="subject" className="form-control"/>
+                                        <input type="text" id="subject" name="subject" 
+                                            className="form-control"
+                                            onChange={event => setSubject(event.target.value)}
+                                            value={subject}
+                                         />
                                         <label htmlFor="subject" className="">Subject</label>
                                     </div>
                                 </div>
@@ -57,7 +80,12 @@ function ContactForm (){
                                 <div className="col-md-12">
 
                                     <div className="md-form">
-                                        <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
+                                        <textarea type="text" id="message" name="message" 
+                                            rows="2" 
+                                            onChange={event => setMessage(event.target.value)}
+                                            value={message}
+                                            className="form-control md-textarea"
+                                        ></textarea>
                                         <label htmlFor="message">Your message</label>
                                     </div>
 
