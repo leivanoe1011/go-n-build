@@ -1,8 +1,17 @@
 
 import React from "react";
-import ReactPlayer from "react-player"
+import ReactPlayer from "react-player";
+import WOW from 'wowjs';
+
 
 function VideoGuate () {
+
+        // Same as component diMount
+        React.useEffect(() => {
+            // Runs after the first render() lifecycle
+            new WOW.WOW().init()
+    
+            }, []);
 
     const videoGuatemala = "https://vimeo.com/20084567"
     const playerHeight = "50rem"; // 800 px
@@ -40,7 +49,7 @@ function VideoGuate () {
 
             </div>
 
-            <div className="row d-flex justify-content-center wow animate__animated animate__fadeInUp animate__slower">
+            <div className="row d-flex justify-content-center wow animate__animated animate__zoomIn animate__slower" data-wow-delay="2s">
                 <ReactPlayer
                     url={videoGuatemala}
                     playing={true}

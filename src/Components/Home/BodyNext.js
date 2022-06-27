@@ -1,7 +1,15 @@
 
 import React from "react";
+import WOW from 'wowjs';
 
 function BodyNext () {
+
+    // Same as component diMount
+    React.useEffect(() => {
+        // Runs after the first render() lifecycle
+        new WOW.WOW().init()
+
+        }, []);
 
     const poorKidImage = require("../../img/poverty-housing-guatemala.jpg").default;
 

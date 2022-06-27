@@ -1,7 +1,15 @@
 
 import React from "react";
+import WOW from 'wowjs';
 
 function Header () {
+
+    // Same as component diMount
+    React.useEffect(() => {
+        // Runs after the first render() lifecycle
+        new WOW.WOW().init()
+
+        }, []);
 
     const poorKidImage = require("../../img/poorKidImage_25Percent.jpg").default;
 
