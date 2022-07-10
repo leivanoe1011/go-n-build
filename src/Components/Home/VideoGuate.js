@@ -25,23 +25,23 @@ function VideoGuate () {
 
                     <div className="row d-flex justify-content-center">
                         <div className="col-sm-12 col-md-10 col-lg-10">
+                            
                             <h1 className="after-about-body m-5" >
-                                <p className="after-about-body">A LACK OF ELECTRICITY IS CREATING AN</p>
-                                <p className="after-about-body">ENDLESS CYCLE OF POVERTY</p>
+                                <p className="after-about-body" style={{textTransform: "uppercase"}}> Lorem ipsum, dolor sit amet consectetur adipisicing elit </p>
+                                <p className="after-about-body" style={{textTransform: "uppercase"}}>Cupiditate, dolore obcaecati est </p>
                             
                             </h1>
                             
                             <h5>
-                                <p className="after-about-body">Nearly 
-                                    1 billion people around the world are 
-                                    without electricity and live in darkness. They 
-                                    spend up to 30% of their <br/> income on dangerous fuel sources just to have light, and it 
-                                    keeps them in a cycle of poverty .
+                                <p className="after-about-body"> 
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                Cupiditate, dolore obcaecati est aperiam exercitationem deleniti tenetur magni, 
+                                commodi iusto odit qui quos pariatur ratione!
                                 </p>
-                                <p className="after-about-body m-4">It leaves them powerless.</p>
+                                <p className="after-about-body m-4">Autem voluptas inventore earum laudantium obcaecati.</p>
 
                             </h5>
-                        
+                            
                         </div>
                     </div>
 
