@@ -1,6 +1,16 @@
 import React from "react";
+import WOW from 'wowjs';
 
 function ComingSoon () {
+
+
+    // Same as component diMount
+    React.useEffect(() => {
+        // Runs after the first render() lifecycle
+        new WOW.WOW().init()
+
+        }, []);
+
 
     const customStyle ={
         // backgroundImage:{forestImage},
@@ -12,29 +22,28 @@ function ComingSoon () {
         margin: 0
     }
 
-    const comingSoonStyle = {
-       color: "antiquewhite"
-
-    };
+    const comingSoonStyle = { color: "white",backgroundColor:"#B2BEB5" };
 
 
     return (
 
         <>
-        <div style={customStyle}>
+        <div className="row justify-content-md-center justify-content-lg-center" style={customStyle}>
 
-            <div className="middle" >
-                <h1 style={{comingSoonStyle}}>COMING SOON</h1>
-                <hr
-                    style={{
-                        color: "black",
-                        backgroundColor: "black",
-                        height: 5,
-                        width: "100%"
-                    }}
-                />
-                {/* <p>35 days</p> */}
+            <div className="col-sm-3 col-md-3 col-lg-3 align-self-center text-center wow animate__animated animate__fadeInLeft animate__slower" >
+                <h1 style={comingSoonStyle}>COMING SOON
+                    
+                    <hr
+                        style={{
+                            color: "white",
+                            backgroundColor: "white",
+                            height: 5,
+                        }}
+                    />
+                    
+                </h1>
             </div>
+            
             <div className="bottomleft">
             </div>
         </div>
