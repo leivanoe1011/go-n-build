@@ -15,9 +15,9 @@ import "./services.css";
 
 function NavBar() {
 
-    const logo = require("../../media/GB_100_logo.png").default;
+    // const logo = require("../../media/GB_100_logo.png").default;
 
-    // const logo = require("../../media/Go-N-Build-Logo-GreenHouse.png").default;
+    const logo = require("../../media/Go-N-Build-Logo-GreenHouse.png").default;
     
 
 
@@ -140,8 +140,8 @@ function NavBar() {
     }
 
     const imageStyle = {
-        marginBottom: "-10px",
         marginTop: "-5px",
+        marginBottom: "-5px"
     }
 
     const buttonDonationStyle = {
