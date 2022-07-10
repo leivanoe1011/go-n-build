@@ -144,8 +144,9 @@ function NavBar() {
         marginTop: "-5px",
     }
 
-    const customStyle = {
-        opacity: 0
+    const buttonDonationStyle = {
+        color: "white",
+        fontWeight: "bold"
     }
 
 
@@ -187,7 +188,11 @@ function NavBar() {
 
                     </ul>
                     <span className="navbar-text">
-                        <button type="button" className="btn btn-danger">DONATE</button>
+                        <button type="button" className="btn btn-danger">
+                            
+                            <Link style={buttonDonationStyle} className="nav-link thumbnail" to="/Donate">DONATE</Link>
+
+                        </button>
                     </span>
                 </div>
             </nav>

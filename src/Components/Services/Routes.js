@@ -12,6 +12,7 @@ import CurrentProjects from "../CurrentProjects/CurrentProjects";
 import PastProjects from "../PastProjects/PastProjects";
 import WhatWeDo from "../WhatWeDo/WhatWeDo";
 import Contact from "../Contact/Index";
+import Donate from "../Donate/Donate";
 
 import LoginPage from "../Authentication/LoginPage";
 import RegisterPage from "../Authentication/RegisterPage";
@@ -30,6 +31,8 @@ function Router(){
                 <UnPrivateRoute exact path="/CurrentProject" component={CurrentProjects}/>
                 <UnPrivateRoute exact path="/WhatWeDo" component={WhatWeDo}/>
                 <UnPrivateRoute exact path="/Contact" component={Contact}/>
+                <UnPrivateRoute exact path="/Donate" component={Donate}/>
+
 
 
                 <UnPrivateRoute exact path="/go-n-build/login" component={LoginPage}  />
