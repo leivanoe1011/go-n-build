@@ -1,3 +1,6 @@
+
+
+
 .container-fluid {
     padding: 5px;
   }
@@ -9,4 +12,43 @@
   .after-about-body{
       color: white;
       size: 55px;
+  }
+
+
+
+  body, html {
+    height: 100%
+  }
+  
+ 
+  
+  /* Position text in the top-left corner */
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: antiquewhite !important;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
   }

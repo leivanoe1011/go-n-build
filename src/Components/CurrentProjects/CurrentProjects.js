@@ -3,10 +3,13 @@ import React, { useContext } from "react";
 import "./home.css";
 
 
-import Header from "./IndexHeader";
-import Body from "./IndexBody";
-import BodyNext from "./BodyNext";
-import VideoGuate from "./VideoGuate";
+// import Header from "./IndexHeader";
+// import Body from "./IndexBody";
+// import BodyNext from "./BodyNext";
+// import VideoGuate from "./VideoGuate";
+
+import ComingSoon from "./ComingSoon"
+
 
 import { AuthContext } from "../../Context/AuthContext";
 
@@ -16,7 +19,11 @@ function Index () {
 
     return (
         <section>
-            {/* Header */}
+          
+          <div className="container-fluid">
+                <ComingSoon/>
+            </div>
+{/*             
             <div className = "container-fluid">
                     <Header/>
             </div>
@@ -26,15 +33,15 @@ function Index () {
             </div>
 
 
-            {/* Body */}
             <div className="container-fluid">
                 <Body/>
             </div>
 
             <div className="container-fluid">
                 <BodyNext/>
-            </div>
-
+            </div> 
+            
+*/}
         </section>      
        
     )

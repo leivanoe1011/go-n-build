@@ -141,6 +141,12 @@ function NavBar() {
         marginTop: "-5px",
     }
 
+    const customStyle = {
+        opacity: 0
+    }
+
+
+
     return(
         <div>    
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -155,11 +161,11 @@ function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav mr-auto ">
                         
-                        <li className="nav-item">
+                        <li  className="nav-item">
                             <Link className="nav-link thumbnail" to="/WhatWeDo">WHAT WE DO</Link>
                         </li>
 
-                        <li className="nav-item">
+                        <li  className="nav-item">
                             <Link className="nav-link thumbnail" to="/PastProject">PAST PROJECTS</Link>
                         </li>
 

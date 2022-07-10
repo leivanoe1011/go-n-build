@@ -49,7 +49,7 @@ function VideoGuate () {
 
             </div>
 
-            <div className="row d-flex justify-content-center wow animate__animated animate__zoomIn animate__slower" data-wow-delay="2s">
+            <div className="row d-flex justify-content-center wow animate__animated animate__zoomIn animate__slower" data-wow-delay=".5s">
                 <ReactPlayer
                     url={videoGuatemala}
                     playing={true}
