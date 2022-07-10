@@ -36,7 +36,6 @@ function ComingSoon () {
                 {/* <p>35 days</p> */}
             </div>
             <div className="bottomleft">
-                <p>Some text</p>
             </div>
         </div>
         </>

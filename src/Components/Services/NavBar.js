@@ -17,6 +17,9 @@ function NavBar() {
 
     const logo = require("../../media/GB_100_logo.png").default;
 
+    // const logo = require("../../media/Go-N-Build-Logo-GreenHouse.png").default;
+    
+
 
     // const { isAuthenticated, setIsAuthenticated, role } = useContext(AuthContext);
     const { setIsAuthenticated, role } = useContext(AuthContext);
