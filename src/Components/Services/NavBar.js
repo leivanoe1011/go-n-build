@@ -15,11 +15,12 @@ import "./services.css";
 
 function NavBar() {
 
-    // const logo = require("../../media/GB_100_logo.png").default;
-
-    const logo = require("../../media/Go-N-Build-Logo-GreenHouse.png").default;
+    const logo = require("../../media/HouseLogoWithHeart.png").default;
     
 
+    const logoStyle = {
+        paddingTop: "-5px"
+    }
 
     // const { isAuthenticated, setIsAuthenticated, role } = useContext(AuthContext);
     const { setIsAuthenticated, role } = useContext(AuthContext);
@@ -140,7 +141,7 @@ function NavBar() {
     }
 
     const imageStyle = {
-        marginTop: "-5px",
+        marginTop: "-10px",
         marginBottom: "-5px"
     }
 
